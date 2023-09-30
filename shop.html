@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="../Pink and White Elegant Beauty & Cosmetic Logo.png" alt="logo" width="100px" class="img">
+        <h1> <p><b></b></p> PAYMENT FORM</h1>
+        <h2>Contact Information:</h2>
+       <fieldset>
+        <hr>
+        <p>Name:<input type="text" name="name"></p>
+        <P>Contact Number:<input type="number" number="number"></P>
+
+        <P> Address: <textarea name="address"  id="address"cols="40" rows="6"></textarea></P>
+        <p> Email Id: <input type="email" name="email" id="email"></p>
+        <p>Product Name: <input type="text" id="product" id="product"></p>
+        <hr> </fieldset>
+        <h2> Payment Information:</h2>
+        <fieldset>
+            <p>Payment Option:  </p>
+              <p><input type="radio" name="payment" id="cash"> Cash</p> 
+            
+              <p> <input type="radio" name="payment" id="Online ">E-sewa </p>
+           <p><input type="radio" name="payment" id="bank">Bank transfer</p> 
+            <p><input type="radio" name="payment" id="card">Card</p>
+            
+          <p>If card:</p>  
+            
+         <p> Card type:
+            <select name="Card_type" id="Card_type">
+                <option value=""> Select a card type</option>
+                <option value="visa"> Visa</option>
+                <option value="mastercard"> Mastercard</option>
+            </select>
+            
+        </p>
+        <p> Card Number:* <input type="number" name="cardnumber" id="cardnumber"> 
+        </p>
+        <p> Expiration date: <input type="date" name="exp_date" id="exp_date"></p> 
+       </fieldset>
+       <button type="button" class="btn btn-primary btn-lg"> <input type="submit" name="paynow" id="paynow" class="sumbit"></button>
+        <button type="button" class="btn btn-secondary btn-lg"><input type="reset" name="reset" id="rest" class="sumbit"></button>
+        </form>
+    
+    
+    
+</body>
+</html>

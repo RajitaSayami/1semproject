@@ -1,0 +1,29 @@
+*{
+    font-family: 'Alkatra', cursive;
+    text-align: left;
+    font-size: medium;
+    background: #f2eade;
+}
+
+
+h1{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    background-color: #b29079;
+    font-size: larger;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+
+}
+.img{
+    position:fixed ;
+    bottom: 30px;
+    right: 5px;
+}
+.sumbit{
+    float: right;
+}
